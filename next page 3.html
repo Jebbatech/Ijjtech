@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIEWING MORE PICTURES</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #999;
+    }
+
+    #nav{
+        background: #eed;
+        height: 50px;
+    }
+
+    #nav .logo{
+        color: rgb(204, 0, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 15px;
+        padding-left: 15px;
+        text-shadow: 1px 1px 3px aqua;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        float: right;
+        margin-top: -25px;
+    }
+
+    li{
+        padding-right: 15px;
+        font-size: large;
+        font-family: Tahoma;
+        font-weight: bold;
+    }
+
+    li a{
+        color: dodgerblue;
+        text-decoration: none;
+    }
+
+    li a:hover{
+        background: #d7cfda;
+    }
+
+    img{
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    button{
+        float: right;
+        font-size: larger;
+        font-weight: bold;
+        text-shadow: 1px 1px 4px chocolate;
+        margin-top: 35%;
+    }
+
+    button a{
+        text-decoration: none;
+    }
+
+    .previous{
+        float: left;
+    }
+
+hr{
+    color: #eed;
+    margin-top: 40%;
+}
+
+footer{
+    text-align: center;
+    font-size: 24px;
+    color: bisque;
+    margin-top: 2.4%;   
+}
+
+@media all and (max-width:500px){
+    body{
+        background-color: #999;
+    }
+}
+@media all and (max-width:500px){
+    #nav{
+        background: #eed;
+        height: 30px;
+
+    }
+}
+
+@media all and (max-width:500px){
+    #nav .logo{
+        color: rgb(204, 0, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 5px;
+        text-shadow: 1px 1px 3px aqua;
+        margin-top: -3px;
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width:500px){
+    ul{
+        display: flex;
+        list-style: none;
+    }
+}
+
+@media all and (max-width:500px){
+li{
+        padding-right: 5px;
+        font-size: 0.8rem;
+        font-family: Tahoma;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+
+    li a{
+        color: dodgerblue;
+        text-decoration: none;
+    }
+
+    li a:hover{
+        background: #d7cfda;
+    }
+}
+
+@media all and (max-width:500px){
+    footer{
+    text-align: center;
+    font-size: 0.5rem;
+    color: bisque;
+    }
+}
+
+
+@media all and (max-width:280px){
+    ul{
+        display: flex;
+        list-style: none;
+        
+        margin-top: -20px;
+    }
+
+    li{
+        padding-right: 5px;
+        font-size: 0.5rem;
+        font-family: Tahoma;
+        font-weight: bold;
+    }
+
+    li a{
+        color: dodgerblue;
+        text-decoration: none;
+    }
+
+    li a:hover{
+        background: #d7cfda;
+    }
+}
+</style>
+
+<body>
+    <div id="nav">
+        <h2 class="logo"> I J JEBBA </h2>
+        <ul>
+            <li> <a href="index.html"> HOME </a> </li>
+            <li> <a href="about.html"> ABOUT ME </a> </li>
+            <li> <a href="update.html"> UPDATES </a> </li>
+            <li> <a href="contact.html"> CONTACT </a> </li>
+        </ul>
+    </div>
+
+    <div class="photos">
+        <img src="../picture/22.jpg" alt="ijj" >
+        <img src="../picture/10.jpg" alt="ijj">
+        <img src="../picture/11.jpg" alt="ijj">
+        <br>
+        <img src="../picture/9.jpg" alt="ijj">
+        <img src="../picture/8.jpg" alt="ijj">
+        <img src="../picture/6.jpg" alt="ijj">
+    </div>
+    <button class="previous"> <a href="next page 2.html"> PREVIOUS </a></button>
+   
+    <hr>
+    <footer> I J J Copyright &COPY; MY GALLERY Alright Reserved-2023</footer>
+</body>
+</html>
